@@ -27,6 +27,7 @@ const Context: FC<{ children: ReactNode }> = ({ children }) => {
     const wallets = useMemo(
         () => [
             new PhantomWalletAdapter(),
+            new SolflareWalletAdapter(),
             new UnsafeBurnerWalletAdapter(),
         ],
         [network]
