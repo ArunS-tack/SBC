@@ -1,0 +1,19 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://uploads-ssl.webflow.com/617a2c064720870e9f9a5863/6191fc375227a17a859ad02f_Solana%237.JPG");
+  background-size: cover;
+}
+
+h1{
+  font-size: 2.5rem;
+  color: #6f03f4f1
+}
+
+h2{
+  font-size: 2rem;
+  color: black;
+}
