@@ -68,7 +68,7 @@ function Balance() {
 
     return (
         <div>
-            { publicKey ? <h2>Balance: {balance / LAMPORTS_PER_SOL} SOL</h2> : <h2> Connect wallet to view balance </h2> }
+            { publicKey ? (balance ? <h2>Balance: {balance / LAMPORTS_PER_SOL} SOL</h2> : <h2>Loading balance...</h2>) : <h2> Connect wallet to view balance </h2> }
         </div>
     );
 }
